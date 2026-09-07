@@ -13,9 +13,9 @@ title                    : "John Smith"
 title_separator          : "-"
 name                     : &name "John Smith"
 description              : &description "A LLM Researcher"
-url                      : https://mcptest-user.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://team6sharo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mcptest-user/My-Homepage"
+repository               : "team6sharo/My-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "mcptest-user" # Username - Update with your username on the site
+  github           : "team6sharo" # Username - Update with your username on the site
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -230,7 +230,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -324,6 +324,8 @@ whitelist:
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
 #  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
 #  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
